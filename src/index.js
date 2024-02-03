@@ -14,8 +14,8 @@ root.render(
     <Provider store={store}>
       <MantineProvider>
         <BrowserRouter>
-          {/* <App /> */}
-          <ReduxApp />
+         <App />
+      
         </BrowserRouter>
       </MantineProvider>
     </Provider>
